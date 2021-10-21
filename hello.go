@@ -5,7 +5,7 @@ import "fmt"
 // Hello returns a greeting for the named person.
 func Hello(name string) string {
 	// Return a greeting that embeds the name in a message.
-	message := fmt.Sprintf("Hi, %v. Welcome! We meet back in time - v1.2.3", name)
+	message := fmt.Sprintf("Hi, %v. Welcome! We meet back in time - 0.2.2", name)
 	return message
 }
 
